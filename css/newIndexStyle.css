@@ -2,6 +2,12 @@
 header, .offcanvas {
     background-color: #0E023E !important;
 }
+@media screen and (max-width: 576px) {
+    header img {
+        width: 250px;
+        /* height: 44px; */
+    }
+}
 
 .navbar {
     box-shadow: none;
