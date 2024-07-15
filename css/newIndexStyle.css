@@ -1,0 +1,129 @@
+
+header, .offcanvas {
+    background-color: #0E023E !important;
+}
+
+.navbar {
+    box-shadow: none;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-weight: bold;
+}
+.navbar-toggler {
+    border: 1px solid rgb(255, 255, 255) !important;
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 3px rgb(255, 255, 255) !important;
+}
+
+.navbar-toggler-icon {
+    color: rgb(255, 255, 255) !important;
+}
+
+.offcanvas {
+    width: 420px !important;
+}
+
+.btn-close {
+    filter: invert(1); 
+}
+
+.explore-degree {
+    margin-top: 100px;
+}
+@media screen and (min-width: 576px){
+    .explore-degree {
+        margin-block: 50px;
+    } 
+}
+
+.explore-text, .business-driven--title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E023E;
+}
+
+.explore-degree .row {
+    margin-right: 0;
+}
+
+.explore-degree li {
+    list-style-type: none;
+    line-height: 3;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.business-driven {
+    background-color: #F8F8FF;
+
+    .row {
+        margin-inline: 0 !important;
+    }
+    img {
+        width: 100%;
+    }
+}
+.business-driven--text {
+    color: #979797;
+    font-size: 17px;
+    line-height: 2.5;
+}
+
+.offer {
+    /* position: relative; */
+    width: 100%;
+    height: auto; /* Adjust the height as needed */
+    background: linear-gradient(rgba(14, 2, 62, .78), rgba(14, 2, 62, .78)), url('/images/rsu building 1.svg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.offer h3 {
+    font-weight: bold;
+    margin-top: -40px;
+    margin-bottom: 40px;
+}
+.offer li {
+    /* display: inline-block; */
+    list-style-type: none;
+    border: 2px solid white;
+    line-height: 3;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    transition: all 1s;
+}
+
+.offer li a:hover {
+    color: #0E023E;
+    font-weight: bold;
+    background-color: #F8F8FF;
+}
+
+.offer li a{
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+    transition: all 1s;
+    font-weight: bold;
+}
+@media screen and (min-width: 769px) {
+    .offer li{
+        max-width: 400px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .offer li{
+        width: 100%;
+    }
+    .offer ul {
+        padding: 0;
+    }
+}
+.offer li:nth-child(2) {
+    margin-block: 25px;
+}
