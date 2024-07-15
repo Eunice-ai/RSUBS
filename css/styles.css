@@ -203,12 +203,17 @@ nav .navbar .links li:hover .js-sub-menu {
   background-color: rgba(0, 0, 0, 0.5);
   box-sizing: border-box;
 }
-
 @media screen and (max-width: 576px) {
+  .overlay {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)), url(/images/banner2-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
   .banner .overlay {
     position: relative;
     background-color: rgba(0, 0, 0, 1);
-    margin-block-start: -80px;
     margin-block-end: 50px;
     text-align: center;
   }
@@ -429,6 +434,7 @@ nav .navbar .links li:hover .js-sub-menu {
 .news-item {
   background-color: #fff;
   border-radius: 8px;
+  overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
