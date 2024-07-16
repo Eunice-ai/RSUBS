@@ -133,3 +133,58 @@ header, .offcanvas {
 .offer li:nth-child(2) {
     margin-block: 25px;
 }
+
+.testimonies {
+    background-color: #F8F8FF;
+}
+
+.scrolling-wrapper {
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    padding: 10px;
+
+    .card:not(:last-child) {
+        margin-right: 20px;
+    }
+}
+
+.carousel-item {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-inner {
+    overflow: visible;
+}
+
+.card {
+    position: relative;
+    flex: 0 0 auto;
+    width: 100%;
+    max-width: 330px;
+    margin: auto;
+    padding: 20px;
+    background: transparent;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-top: 50px;
+    text-align: center;
+}
+@media screen and (min-width: 768px) {
+    .card {
+        max-width: 600px;
+    }
+}
+
+card::after {
+    /* content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 10px;
+    border-style: solid; */
+    /* border-color: #f9f9f9 transparent transparent transparent; */
+}
