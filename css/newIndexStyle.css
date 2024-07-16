@@ -89,6 +89,7 @@ header, .offcanvas {
 }
 
 .offer h3 {
+    font-size: 32px;
     font-weight: bold;
     margin-top: -40px;
     margin-bottom: 40px;
@@ -138,6 +139,11 @@ header, .offcanvas {
     background-color: #F8F8FF;
 }
 
+.testimonies h3 {
+    font-size: 32px;
+    color: #0E023E;
+}
+
 .scrolling-wrapper {
     -webkit-overflow-scrolling: touch;
     display: flex;
@@ -176,6 +182,20 @@ header, .offcanvas {
     .card {
         max-width: 600px;
     }
+}
+
+.card img {
+    width: 60px;
+    height: 60px;
+}
+
+.card h4 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.card p {
+    font-size: 12px;
 }
 
 card::after {
