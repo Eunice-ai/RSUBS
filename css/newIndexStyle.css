@@ -4,7 +4,7 @@ header, .offcanvas {
 }
 @media screen and (max-width: 576px) {
     header img {
-        width: 200px;
+        width: 230px;
         /* height: 44px; */
     }
 }
