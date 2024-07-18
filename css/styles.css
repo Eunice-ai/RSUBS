@@ -403,6 +403,16 @@ nav .navbar .links li:hover .js-sub-menu {
   font-weight: bold;
 }
 
+@media screen and (max-width: 576px) {
+  .section-title {
+    font-size: 25px;
+  }
+  .section-subtitle {
+    font-size: 14px;
+  }
+}
+
+
 .section-title::before {
   content: "";
   position: absolute;
