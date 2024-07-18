@@ -79,9 +79,14 @@ header, .offcanvas {
 }
 .business-driven--text {
     color: #333;
-    font-size: 17px;
-    /* line-height: 2.5; */
+    font-size: 16px;
+    line-height: 2;
     text-align: justify !important;
+}
+@media screen and (max-width: 576px) {
+    .business-driven--text {
+        font-size: 14px;
+    }
 }
 
 .offer {
@@ -100,10 +105,17 @@ header, .offcanvas {
     margin-top: -40px;
     margin-bottom: 40px;
 }
+.offer-subtitle {
+    font-size: 16px;
+    line-height: 2;
+}
 
 @media screen and (max-width: 576px) {
     .offer h3 {
         font-size: 25px;
+    }
+    .offer-subtitle {
+        font-size: 14px;
     }
 }
 
