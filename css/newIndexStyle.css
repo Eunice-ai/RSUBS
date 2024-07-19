@@ -271,6 +271,9 @@ header, .offcanvas {
 }
 
 /* contact us */
+.content .row {
+    margin-inline: 0;
+}
 
 .contactForm--title {
     font-size: 25px;
