@@ -270,3 +270,20 @@ header, .offcanvas {
     }
 }
 
+/* contact us */
+
+.contactForm--title {
+    font-size: 25px;
+    color: #3b5998;
+}
+@media screen and (max-width: 576px) {
+    .contactForm--title {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .border-responsive-lg {
+        border-left: 1px solid rgba(0, 0, 0, 0.2);
+    }
+}
