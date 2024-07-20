@@ -291,6 +291,10 @@ header, .offcanvas {
     }
 }
 
+.hero-section {
+    max-width: 1250px;
+}
+
 .contactHero--img {
     width: 100%;
     padding-top: 21.09%;
