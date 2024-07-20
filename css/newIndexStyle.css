@@ -290,3 +290,20 @@ header, .offcanvas {
         border-left: 1px solid rgba(0, 0, 0, 0.2);
     }
 }
+
+.contactHero--img {
+    width: 100%;
+    padding-top: 21.09%;
+    margin-top: 60px;
+    background-image: url(/images/contactus2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+}
+
+@media only screen and (max-width: 768px) {
+    .contactHero--img {
+        margin-top: 85px;
+    }
+}
