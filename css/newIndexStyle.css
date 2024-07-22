@@ -334,3 +334,18 @@ header, .offcanvas {
 .aboutHero--img {
     
 }
+
+.rsu-history {
+    background-color: #F8F8FF
+}
+
+.about-rsu-heading, .rsu-accolades-heading, .rsu-history-heading {
+    font-size: 32px;
+    font-weight: bold;
+    color: #3b5998;
+}
+@media screen and (max-width: 768px) {
+    /* .rsu-history-heading { */
+        font-size: 25px;
+    }
+}
