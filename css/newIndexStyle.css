@@ -317,3 +317,15 @@ header, .offcanvas {
         margin-top: 85px;
     }
 }
+#contact-content ul {
+    padding-left: 0;
+}
+#contact-content li {
+    list-style-type: none;
+    font-size: 14px;
+}
+
+.contact-content--title, .contact-content--subtitle {
+    color: #3b5998;
+    font-weight: bold;
+}
