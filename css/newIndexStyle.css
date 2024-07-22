@@ -342,10 +342,12 @@ header, .offcanvas {
 .about-rsu-heading, .rsu-accolades-heading, .rsu-history-heading {
     font-size: 32px;
     font-weight: bold;
-    color: #3b5998;
+    color: #0E023E;
 }
+
 @media screen and (max-width: 768px) {
-    /* .rsu-history-heading { */
+    .rsu-history-heading, .about-rsu-heading, .rsu-accolades-heading {
         font-size: 25px;
+        text-align: center;
     }
 }
