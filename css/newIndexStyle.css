@@ -179,7 +179,6 @@ header, .offcanvas {
     border: 1px solid #3b5998;
     /* box-shadow: rgba(0, 0, 0, 0.35) 0 2px 7px; */
     margin: 40px 0;
-    /* text-overflow: ellipsis; */
 }
 
 .box-area h5 {
@@ -214,9 +213,9 @@ header, .offcanvas {
     bottom: 0;
     margin: 0 auto;
     right: 0;
+    border-radius: 50%;
     z-index: 1;
     border: 5px solid #fff;
-    border-radius: 50%;
     box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
 } 
 .box-area .img-area img {
@@ -347,6 +346,65 @@ header, .offcanvas {
 
 @media screen and (max-width: 768px) {
     .rsu-history-heading, .about-rsu-heading, .rsu-accolades-heading {
+        font-size: 25px;
+        text-align: center;
+    }
+}
+
+.governance-link {
+    text-decoration: none;
+}
+.governance-link .card {
+    transition: all .5s;
+}
+
+.governance-link .card:hover {
+    background: #9b9898;
+    color: #fff;
+}
+
+.governanceHero--img {
+    width: 100%;
+    /* padding-top: 21.09%; */
+    margin-top: 60px;
+    /* background-image: url(/images/contactus2.png); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:relative;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.float img {
+    float: left;
+    width: 50%;
+}
+
+.float img::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media screen and (max-width: 576px){
+    .float img {
+        float: none;
+        width: 100%;
+    }
+}
+
+
+
+/* news and events */
+.news h3 {
+    font-size: 32px;
+    color: #0E023E;
+}
+@media screen and (max-width: 576px){
+    .news h3 {
         font-size: 25px;
         text-align: center;
     }
